@@ -1,0 +1,117 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #112c44;
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+  height: 100px;
+  overflow: hidden;
+  width: max-content;
+  margin: 0 auto;
+}
+
+header img {
+  max-height: 80px;
+  max-width: 210px;
+  width: auto;
+  height: auto;
+  margin: 25px 0 0 0;
+}
+
+h1 {
+  display: inline-block;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  position: relative;
+  top: -0.6em;
+  font-size: 2.4em;
+  padding-left: 0.5em;
+  margin: 0;
+}
+
+h2 {
+  color: #b5b6c1;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.7em;
+}
+
+section {
+  padding: 1em;
+  width: max-content;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  margin-top: 1em;
+  background: transparent;
+  font-size: 0.95rem;
+}
+
+thead th {
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: bold;
+  color: #b5b6c1;
+  padding: 0.6em 1.5em;
+}
+
+tbody tr {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+td {
+  padding: 0.7em 1.5em;
+  color: #ffffff;
+}
+
+tr:not(:first-child) { 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08); 
+}
+tr:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+tr:hover td {
+  background: rgba(255, 255, 255, 0.05); 
+}
+
+p {
+  margin-bottom: 1.6em;
+}
+
+.important {
+  color: #ffffff;
+}
+
+td.overdrawn {
+  color: #fca905;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.95em;
+}
